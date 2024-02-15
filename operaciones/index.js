@@ -21,3 +21,4 @@ function multiplica(...valors) {}
 
 module.exports.suma = suma;
 module.exports.multiplica = multiplica;
+
