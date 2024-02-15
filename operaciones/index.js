@@ -4,12 +4,14 @@
  * @param  {...Number} valors els valors amb els que realitzar la operacio
  * @returns {Number} el resultat de la operacio
  */
-function suma(...valors) {}
-let resultat = 0;
-for (const valor of valors) {
-  resultat += valor;
+function suma(...valors) {
+
+  let resultat = 0;
+  for (const valor of valors) {
+    resultat += valor;
+  }
+  return resultat;
 }
-return resultat;
 
 /**
  * Aquesta funcio multiplica tots els valors passats per parametre
