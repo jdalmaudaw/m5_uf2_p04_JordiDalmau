@@ -17,7 +17,9 @@ return resultat;
  * @param  {...Number} valors els valors amb els que realitzar la operacio
  * @returns {Number} el resultat de la operacio
  */
-function multiplica(...valors) {}
+function multiplica(...valors) {
+    let resultat = 0;     for (const valor of valors) {         resultat *= valor;     }     return resultat;
+}
 
 module.exports.suma = suma;
 module.exports.multiplica = multiplica;
